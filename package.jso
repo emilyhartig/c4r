@@ -1,0 +1,17 @@
+{
+	"name": "c4rjs",
+	"version": "0.0.1",
+	"main": "index.js",
+	"type": "module",
+	"scripts": { "start": "nodejs index.js" },
+	"author": "drbg",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"c4r": "file:cpp",
+		"fastify": "^3.14.0",
+		"fastify-telegraf": "^1.0.2",
+		"telegraf": "^4.3.0",
+		"telegraf-throttler": "^0.6.0"
+	}
+}
